@@ -1,26 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Carme);
 @import url(http://fonts.googleapis.com/css?family=Sanchez);
-body{margin:0}
+
+html{
+	background-color: #f2f2e6;
+}
+body{margin:0;background-color: white;
+
+}
 
 .top_content-wrapper{
-	width:90%;
-	margin: 0 auto;
-}
-.main_content-wrapper{
+
 	width:90%;
 	margin: 0 auto;
 
 }
+
 header{
-
+background-color: white;
 }
+
 #logodiv{
 background-color: white;
 float: left;
-
 }
+
 #logo{
-	height:60px;
+	height:50px;
+	padding: 15px;
+}
+nav{
+margin-top: 38px;
+float: right;
+font-family: 'Carme';
+font-size: 13px;
 }
 nav a{
 	padding-left: 35px;
@@ -28,27 +40,23 @@ nav a{
 	text-decoration: none;
 	color: black;
 }
-nav{
-background-color: white;
-margin-top: 20px;
 
-float: right;
-font-family: 'Carme';
-}
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
+
+.main_content-wrapper{
+	width:100%;
+	height:95%;
+	margin: 0 auto;
+	background-color: #f2f2e6;
+	clear: both;
 }
 
 #top{
 clear: both;
 background-color: #f2f2e6;
 text-align: center;
+padding-top: 30px;
+border-top:2px solid lightgrey;
 }
 
 #top div {
@@ -56,10 +64,19 @@ text-align: center;
 }
 #top img{
 	margin: 0 auto;
-	max-height: 20px;
+	max-height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .line{
 width: 25%;
+
+}
+#stylish{color: lightgrey;
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #main{
@@ -68,7 +85,8 @@ background-color: #f2f2e6;
 font-family: 'Sanchez';
 
 text-align: center;
-
+margin: 0 auto;
+width:90%;
 }
 #maindiv{
 	font-size: 22px;
@@ -117,18 +135,25 @@ text-align: center;
     font-size: 20px;
     font-family: 'Sanchez';
     margin-top: 60px;
+    padding: 15px;
 }
 
 #bottom{
 clear: both;
 background-color: #f2f2e6;
 text-align: center;
-margin: 0 auto -50px;
+
+padding-bottom: 25px;
+
 }
 #bottom div {
 	display: inline-block;	
+	margin-top: 60px;
+	
 }
 #bottom img{
 	margin: 0 auto;
-	max-height: 20px;
+	max-height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
