@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Carme);
+@import url(http://fonts.googleapis.com/css?family=Sanchez);
+body{margin:0}
+
+.top_content-wrapper{
+	width:90%;
+	margin: 0 auto;
+}
+.main_content-wrapper{
+	width:90%;
+	margin: 0 auto;
+
+}
+header{
+
+}
+#logodiv{
+background-color: white;
+float: left;
+
+}
+#logo{
+	height:60px;
+}
+nav a{
+	padding-left: 35px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+nav{
+background-color: white;
+margin-top: 20px;
+
+float: right;
+font-family: 'Carme';
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+#top{
+clear: both;
+background-color: #f2f2e6;
+text-align: center;
+}
+
+#top div {
+	display: inline-block;	
+}
+#top img{
+	margin: 0 auto;
+	max-height: 20px;
+}
+.line{
+width: 25%;
+}
+
+#main{
+	clear: both;
+background-color: #f2f2e6;
+font-family: 'Sanchez';
+
+text-align: center;
+
+}
+#maindiv{
+	font-size: 22px;
+	padding: 20px;
+}
+#main img{
+	
+	width: 100%;
+}
+.sites {
+	text-align: center;
+	background-color: #f2f2e6;	
+	
+}
+
+.site {
+	float: left;
+	background-color: white;
+	width: 30%;
+	
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+}
+
+.site-details {
+	background-color: white;
+}
+
+#sitefont{
+	font-family: "Sanchez";
+	color: #d76f54;
+}
+#sitefont2{
+	font-family: "Carme";
+	font-size: "7px";
+}
+/*#button{
+		clear: both;
+background-color: #f2f2e6;
+text-align: center;
+}*/
+#button button{
+	clear: both;
+	background-color: #d76f54;   
+    color: white;
+    font-size: 20px;
+    font-family: 'Sanchez';
+    margin-top: 60px;
+}
+
+#bottom{
+clear: both;
+background-color: #f2f2e6;
+text-align: center;
+margin: 0 auto -50px;
+}
+#bottom div {
+	display: inline-block;	
+}
+#bottom img{
+	margin: 0 auto;
+	max-height: 20px;
+}
